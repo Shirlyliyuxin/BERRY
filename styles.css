@@ -1,0 +1,181 @@
+body{
+    
+}
+#title{
+    background-color:#DBDFEA;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+h1{
+    font-family: "Darumadrop One", cursive;
+    font-size: 3.1rem;
+    line-height: 1.5;
+    color: #B93160;
+}
+
+h2{
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 3.5rem;
+    line-hight:1.5;
+}
+
+    
+h3{
+    font-family: "Darumadrop One";
+    color: #B93160;
+}
+
+.grapes{
+    width: 35%;
+    margin-bottom: 2rem;
+}
+.scale{
+    width: 35%;
+    margin-bottom: 2rem;
+}
+.thumbs{
+    width: 35%;
+    margin-bottom: 2rem;
+}
+
+p{
+    color:#8f8f8f;
+    padding: 6%;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Pacifico";
+    font-size: 1.8rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* buynow-button */
+
+.buynow-button{
+    margin: 10% 3% 5% 0;
+
+}
+
+/* Title image */
+
+.title-image{
+    width:75%;
+    margin-left: 21%;
+    border-radius: 5%;
+}
+
+/* features section */
+
+#features{
+ padding: 5% 10%;
+ text-align: center;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+/* testimonial section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color:#DBDFEA ;
+    color: #B93160;
+}
+
+
+
+.cookie{
+    width: 30%;
+    border-radius: 100%;
+    margin: 40px;
+}
+.pokemon{
+    width: 30%;
+    border-radius: 70%;
+    margin: 40px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+background-color: #DBDFEA;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+/* CTA SECTION */
+
+#cta{
+background-color: #DBDFEA;
+color:#B93160;
+padding: 7% 15%;
+text-align: center;
+}
+
+.old-woman{
+    width: 15%;
+    margin-top: 15px;
+}
+
+.cta-heading{
+font-family:"Darumadrop One", cursive;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+
+
+/* Footer section */
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+a {
+    color: #917FB3;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+}
